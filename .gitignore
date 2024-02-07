@@ -1,0 +1,15 @@
+/BloodBank_Blockchain-master/node_modules
+/BloodBank_Blockchain-master/public/hot
+/BloodBank_Blockchain-master/public/storage
+/BloodBank_Blockchain-master/storage/*.key
+/BloodBank_Blockchain-master/vendor
+/BloodBank_Blockchain-master/.env
+/BloodBank_Blockchain-master/.env.backup
+/BloodBank_Blockchain-master/.phpunit.result.cache
+/BloodBank_Blockchain-master/docker-compose.override.yml
+/BloodBank_Blockchain-master/Homestead.json
+/BloodBank_Blockchain-master/Homestead.yaml
+/BloodBank_Blockchain-master/npm-debug.log
+/BloodBank_Blockchain-master/yarn-error.log
+/BloodBank_Blockchain-master/.idea
+/BloodBank_Blockchain-master/.vscode
