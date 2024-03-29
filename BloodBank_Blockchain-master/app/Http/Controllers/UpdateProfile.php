@@ -15,7 +15,7 @@ class UpdateProfile extends Controller
 {
 
 
-    //Patient
+    //Donor Profile Update
     public function CustomerViewUpdateProfile(Request $request)
     {
 
@@ -64,10 +64,8 @@ class UpdateProfile extends Controller
         $user->email = $request->email;
 
         $user->save();
-        return back()->with('message','successful');
+        return back()->with('message','Successfully Updated');
     }
 
-
-    //Doctor
 
 }

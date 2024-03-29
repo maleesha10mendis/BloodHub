@@ -96,7 +96,7 @@ contract BloodHub {
     ) external onlyRole(UserRole.Organization) {
         require(campaigns[campaignID].organization == address(0), "Campaign ID already exists");
 
-        Campaign storage newCampaign = campaigns[campaignID];
+        Campaign storage newCampaign = campaigns[campaignID];  
         newCampaign.organization = msg.sender;
         newCampaign.organizationID = organizationID;
         newCampaign.campaignID = campaignID;

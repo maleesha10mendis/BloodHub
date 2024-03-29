@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (abiData && abiData.abi) {
             const contractABI = abiData.abi;
-            const contractAddress = '0x1acd8Ce055163BBAe13663557673Bc8018d3e75E'; // Replace with your deployed contract address
+            const contractAddress = '0x612F1cAfc4e4a7E974f25a9c8B393c98bD8b7918'; // Replace with your deployed contract address
             bloodHubContract = new web3.eth.Contract(contractABI, contractAddress);
         } else {
             console.error('ABI data or ABI not found in the JSON file.');

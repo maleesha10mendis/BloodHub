@@ -69,7 +69,7 @@ class organizationController extends Controller
         $user->email = $request->email;
 
         $user->save();
-        return back()->with('message','successful');
+        return back()->with('message','Successfully Updated');
     }
 
     public function deleteUser($ID)
