@@ -43,7 +43,7 @@ use Illuminate\Support\Facades\Auth;
 // Route::get('/rr', function () {
 //     return view('Home.welcome2'); // 'welcome' is the name of the Blade view for the home page
 // });
-
+//
 //Homepage
 Route::get('/', [homePageController::class, 'index'])->name('welcome');
 
